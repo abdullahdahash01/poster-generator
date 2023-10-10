@@ -4,6 +4,17 @@
 
 The Poster Generation Service is a Node.js application that generates custom posters based on an HTML template and user-defined parameters. This documentation provides an overview of the service's functionality and instructions on how to use it.
 
+## Installation:
+
+- Install dependencies:
+```
+npm install
+```
+- Start the server:
+```
+npm start
+```
+
 ## Usage
 
 ### Generate a Poster
@@ -25,8 +36,8 @@ The server responds with a json key "poster" which points to poster url. You may
 
 Status Code: 200 OK
 
+Body: json object
 ```
-Body: (json)
 {
   "status": "ok",
   "data": {
