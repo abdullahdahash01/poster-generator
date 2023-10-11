@@ -15,7 +15,10 @@ npm install
 npm start
 ```
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0a363c0f5a6ec565911d27461aeb82deb0e7476a
 ## Usage
 
 ### Generate a Poster
@@ -37,7 +40,11 @@ The server responds with a json key "poster" which points to poster url. You may
 
 Status Code: 200 OK
 
+<<<<<<< HEAD
 Body: (json)
+=======
+Body: json object
+>>>>>>> 0a363c0f5a6ec565911d27461aeb82deb0e7476a
 ```
 {
   "status": "ok",
