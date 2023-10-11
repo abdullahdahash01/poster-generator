@@ -15,10 +15,6 @@ npm install
 npm start
 ```
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 0a363c0f5a6ec565911d27461aeb82deb0e7476a
 ## Usage
 
 ### Generate a Poster
@@ -37,14 +33,12 @@ GET http://localhost:3000/generate-poster?scale=1.5
 ### Response
 The server responds with a json key "poster" which points to poster url. You may use that url in the client to display the image.
 
-
 Status Code: 200 OK
 
-<<<<<<< HEAD
 Body: (json)
-=======
+
 Body: json object
->>>>>>> 0a363c0f5a6ec565911d27461aeb82deb0e7476a
+
 ```
 {
   "status": "ok",
